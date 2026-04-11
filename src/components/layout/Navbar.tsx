@@ -19,7 +19,7 @@ export const Navbar = () => {
         </div>
 
         {/* Navigation Links - AI will likely add more here */}
-                {/* Navigation Links - Updated to use NavLink for routing */}
+                        {/* Navigation Links - Updated for webshop routes */}
         <div className="hidden md:flex items-center gap-8">
           <NavLink
             to="/"
@@ -28,16 +28,34 @@ export const Navbar = () => {
             Home
           </NavLink>
           <NavLink
-            to="/booking"
+            to="/products"
             className="text-sm font-medium text-zinc-400 hover:text-sky-400 transition-colors"
           >
-            Book Session
+            Products
           </NavLink>
           <NavLink
-            to="/dashboard"
+            to="/cart"
             className="text-sm font-medium text-zinc-400 hover:text-sky-400 transition-colors"
           >
-            Dashboard
+            Cart
+          </NavLink>
+          <NavLink
+            to="/orders"
+            className="text-sm font-medium text-zinc-400 hover:text-sky-400 transition-colors"
+          >
+            Orders
+          </NavLink>
+          <NavLink
+            to="/about"
+            className="text-sm font-medium text-zinc-400 hover:text-sky-400 transition-colors"
+          >
+            About
+          </NavLink>
+          <NavLink
+            to="/contact"
+            className="text-sm font-medium text-zinc-400 hover:text-sky-400 transition-colors"
+          >
+            Contact
           </NavLink>
         </div>
 

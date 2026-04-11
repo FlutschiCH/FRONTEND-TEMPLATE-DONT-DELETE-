@@ -12,9 +12,4 @@
   color: white;
 }
 
-/* Custom Glassmorphism for Tailwind v4 */
-@utility glass {
-  background-color: theme('colors.sky.950'); /* Original opacity was / 0.2, removed for build fix. Opacity needs to be applied separately. */
-  backdrop-filter: blur(12px);
-  border: 1px solid theme('colors.sky.400'); /* Original opacity was / 0.1, removed for build fix. Opacity needs to be applied separately. */
-}
+
