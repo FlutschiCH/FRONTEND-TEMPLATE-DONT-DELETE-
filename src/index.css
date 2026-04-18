@@ -1,15 +1,9 @@
 @import "tailwindcss";
 
 @theme {
-  --color-background: #020617;
-  --color-foreground: #ffffff;
-  --radius-xl: 1rem;
-  --radius-2xl: 1.5rem;
+  /* AI will inject its dynamic color palette and variables here */
 }
 
 :root {
-  background-color: #020617;
-  color: white;
+  /* AI will apply global base styles here */
 }
-
-
